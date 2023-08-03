@@ -40,7 +40,6 @@ export const HeroCard = ({
 HeroCard.propTypes = {
   id: PropTypes.string.isRequired,
   superhero: PropTypes.string.isRequired,
-  //   publisher: PropTypes.string.isRequired,
   alter_ego: PropTypes.string.isRequired,
   first_appearance: PropTypes.string.isRequired,
   characters: PropTypes.string.isRequired,
