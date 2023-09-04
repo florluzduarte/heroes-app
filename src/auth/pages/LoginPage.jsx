@@ -8,7 +8,8 @@ export const LoginPage = () => {
 
   const handleLogin = () => {
     login("Flor Luz Duarte");
-    navigate("/", {
+    const lastPath = localStorage.getItem("lastPath") || "/";
+    navigate(lastPath, {
       replace: true,
     });
   };
